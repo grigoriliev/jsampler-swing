@@ -265,7 +265,6 @@ public class PianoRoll extends JPanel implements MidiDataListener {
 	/**
 	 * Used to determine which note to play when using
 	 * the computer keyboard's key bindings.
-	 * @return
 	 */
 	public int
 	getCurrentOctave() { return currentOctave; }
@@ -590,15 +589,15 @@ public class PianoRoll extends JPanel implements MidiDataListener {
 	
 	/**
 	 * Releases all pressed keys, enables/disables all keys and removes all keyswitches.
-	 * @param dissable Specifies whether all keys should be enabled or disabled
+	 * @param disableAllKeys Specifies whether all keys should be enabled or disabled
 	 */
 	public void
-	reset(boolean dissableAllKeys) {
-		reset(dissableAllKeys, true);
+	reset(boolean disableAllKeys) {
+		reset(disableAllKeys, true);
 	}
 	
 	private void
-	reset(boolean dissableAllKeys, boolean clear) {
+	reset(boolean disableAllKeys, boolean clear) {
 		if(clear) {
 			enabledKeys = null;
 			disabledKeys = null;
@@ -610,7 +609,7 @@ public class PianoRoll extends JPanel implements MidiDataListener {
 		setShouldRepaint(false);
 		setAllKeysPressed(false);
 		removeAllKeyswitches();
-		setAllKeysDisabled(dissableAllKeys);
+		setAllKeysDisabled(disableAllKeys);
 		setShouldRepaint(b);
 		if(getShouldRepaint()) repaint();
 	}

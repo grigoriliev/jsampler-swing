@@ -78,14 +78,14 @@ public class SHF {
 	}
 	
 	/**
-	 * Shows a dialog with error message obtained by {@link #getErrorMessage} method.
+	 * Shows a dialog with error message obtained by {@link HF#getErrorMessage} method.
 	 * @param e The <code>Exception</code> from which the error message is obtained.
 	 */
 	public static void
 	showErrorMessage(Exception e) { showErrorMessage(e, getMainFrame()); }
 	
 	/**
-	 * Shows a dialog with error message obtained by {@link #getErrorMessage} method.
+	 * Shows a dialog with error message obtained by {@link HF#getErrorMessage} method.
 	 * @param e The <code>Exception</code> from which the error message is obtained.
 	 * @param prefix The prefix to be added to the error message.
 	 */
@@ -95,7 +95,7 @@ public class SHF {
 	}
 	
 	/**
-	 * Shows a dialog with error message obtained by {@link #getErrorMessage} method.
+	 * Shows a dialog with error message obtained by {@link HF#getErrorMessage} method.
 	 * @param e The <code>Exception</code> from which the error message is obtained.
 	 * @param frame The parent <code>Frame</code> for the dialog.
 	 */
@@ -105,7 +105,7 @@ public class SHF {
 	}
 	
 	/**
-	 * Shows a dialog with error message obtained by {@link #getErrorMessage} method.
+	 * Shows a dialog with error message obtained by {@link HF#getErrorMessage} method.
 	 * @param e The <code>Exception</code> from which the error message is obtained.
 	 * @param frame The parent <code>Frame</code> for the dialog.
 	 * @param prefix The prefix to be added to the error message.
@@ -124,7 +124,7 @@ public class SHF {
 	}
 	
 	/**
-	 * Shows a dialog with error message obtained by {@link #getErrorMessage} method.
+	 * Shows a dialog with error message obtained by {@link HF#getErrorMessage} method.
 	 * @param e The <code>Exception</code> from which the error message is obtained.
 	 * @param dlg The parent <code>Dialog</code> from which the dialog is displayed.
 	 */

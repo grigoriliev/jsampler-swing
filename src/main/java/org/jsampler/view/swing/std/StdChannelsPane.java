@@ -336,7 +336,7 @@ public abstract class StdChannelsPane extends SwingChannelsPane<SwingChannel> im
 	/**
 	 * Determines whether the channel list UI should be automatically updated
 	 * when channel is added/removed. The default value is <code>true</code>.
-	 * @see updateChannelListUI
+	 * @see #updateChannelListUI
 	 */
 	@Override
 	public boolean
@@ -345,7 +345,7 @@ public abstract class StdChannelsPane extends SwingChannelsPane<SwingChannel> im
 	/**
 	 * Determines whether the channel list UI should be automatically updated
 	 * when channel is added/removed.
-	 * @see updateChannelListUI
+	 * @see #updateChannelListUI
 	 */
 	@Override
 	public void
@@ -353,7 +353,7 @@ public abstract class StdChannelsPane extends SwingChannelsPane<SwingChannel> im
 	
 	/**
 	 * Updates the channel list UI.
-	 * @see setAutoUpdate
+	 * @see #setAutoUpdate
 	 */
 	@Override
 	public void
