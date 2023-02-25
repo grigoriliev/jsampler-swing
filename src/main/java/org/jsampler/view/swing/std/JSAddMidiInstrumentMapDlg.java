@@ -32,7 +32,7 @@ import javax.swing.JTextField;
 import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;
 
-import net.sf.juife.swing.OkCancelDialog;
+import com.grigoriliev.jsampler.juife.swing.OkCancelDialog;
 
 import org.jsampler.view.swing.SHF;
 

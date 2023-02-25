@@ -27,7 +27,7 @@ import java.awt.Frame;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 
-import net.sf.juife.swing.OkCancelDialog;
+import com.grigoriliev.jsampler.juife.swing.OkCancelDialog;
 
 import static org.jsampler.view.swing.std.StdI18n.i18n;
 

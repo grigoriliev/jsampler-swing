@@ -35,7 +35,7 @@ import javax.swing.JComboBox;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 
-import net.sf.juife.swing.OkCancelDialog;
+import com.grigoriliev.jsampler.juife.swing.OkCancelDialog;
 
 import org.jsampler.CC;
 

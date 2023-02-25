@@ -48,12 +48,12 @@ import javax.swing.SpinnerNumberModel;
 import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;
 
-import net.sf.juife.swing.Wizard;
-import net.sf.juife.event.TaskEvent;
-import net.sf.juife.event.TaskListener;
-import net.sf.juife.swing.wizard.DefaultWizardModel;
-import net.sf.juife.swing.wizard.UserInputPage;
-import net.sf.juife.swing.wizard.WizardPage;
+import com.grigoriliev.jsampler.juife.swing.Wizard;
+import com.grigoriliev.jsampler.juife.event.TaskEvent;
+import com.grigoriliev.jsampler.juife.event.TaskListener;
+import com.grigoriliev.jsampler.juife.swing.wizard.DefaultWizardModel;
+import com.grigoriliev.jsampler.juife.swing.wizard.UserInputPage;
+import com.grigoriliev.jsampler.juife.swing.wizard.WizardPage;
 
 import org.jsampler.CC;
 import org.jsampler.OrchestraInstrument;

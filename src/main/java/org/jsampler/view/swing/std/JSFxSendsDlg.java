@@ -29,7 +29,7 @@ import org.jsampler.SamplerChannelModel;
 import org.jsampler.event.SamplerChannelListEvent;
 import org.jsampler.event.SamplerChannelListListener;
 
-import net.sf.juife.swing.InformationDialog;
+import com.grigoriliev.jsampler.juife.swing.InformationDialog;
 
 import org.jsampler.view.swing.SHF;
 

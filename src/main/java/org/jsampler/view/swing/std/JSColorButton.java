@@ -42,8 +42,8 @@ import javax.swing.JPanel;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
 
-import net.sf.juife.swing.JuifeUtils;
-import net.sf.juife.swing.OkCancelDialog;
+import com.grigoriliev.jsampler.juife.swing.JuifeUtils;
+import com.grigoriliev.jsampler.juife.swing.OkCancelDialog;
 
 /**
  *

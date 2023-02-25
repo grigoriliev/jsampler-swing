@@ -40,10 +40,10 @@ import javax.swing.JTextField;
 import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;
 
-import net.sf.juife.swing.OkCancelDialog;
+import com.grigoriliev.jsampler.juife.swing.OkCancelDialog;
 
-import net.sf.juife.event.TaskEvent;
-import net.sf.juife.event.TaskListener;
+import com.grigoriliev.jsampler.juife.event.TaskEvent;
+import com.grigoriliev.jsampler.juife.event.TaskListener;
 
 import org.jsampler.CC;
 import org.jsampler.OrchestraInstrument;

@@ -34,8 +34,8 @@ import javax.swing.JButton;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 
-import net.sf.juife.swing.EnhancedDialog;
-import net.sf.juife.swing.JuifeUtils;
+import com.grigoriliev.jsampler.juife.swing.EnhancedDialog;
+import com.grigoriliev.jsampler.juife.swing.JuifeUtils;
 
 import org.jsampler.view.swing.SHF;
 

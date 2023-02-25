@@ -29,7 +29,7 @@ import javax.swing.event.TreeSelectionEvent;
 import javax.swing.event.TreeSelectionListener;
 import javax.swing.tree.TreePath;
 import javax.swing.tree.TreeSelectionModel;
-import net.sf.juife.swing.OkCancelDialog;
+import com.grigoriliev.jsampler.juife.swing.OkCancelDialog;
 import org.jsampler.AudioDeviceModel;
 import org.jsampler.view.swing.AbstractTreeModel;
 import org.jsampler.view.swing.SHF;

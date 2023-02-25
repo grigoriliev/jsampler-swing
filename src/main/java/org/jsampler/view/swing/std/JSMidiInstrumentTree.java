@@ -68,7 +68,7 @@ import org.jsampler.view.swing.SHF;
 
 import org.linuxsampler.lscp.MidiInstrumentInfo;
 
-import net.sf.juife.swing.OkCancelDialog;
+import com.grigoriliev.jsampler.juife.swing.OkCancelDialog;
 
 import static org.jsampler.JSPrefs.FIRST_MIDI_BANK_NUMBER;
 import static org.jsampler.JSPrefs.FIRST_MIDI_PROGRAM_NUMBER;

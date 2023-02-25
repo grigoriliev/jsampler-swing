@@ -41,11 +41,11 @@ import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 
-import net.sf.juife.swing.EnhancedDialog;
-import net.sf.juife.swing.JuifeUtils;
+import com.grigoriliev.jsampler.juife.swing.EnhancedDialog;
+import com.grigoriliev.jsampler.juife.swing.JuifeUtils;
 
-import net.sf.juife.event.TaskEvent;
-import net.sf.juife.event.TaskListener;
+import com.grigoriliev.jsampler.juife.event.TaskEvent;
+import com.grigoriliev.jsampler.juife.event.TaskListener;
 
 import org.jsampler.CC;
 import org.jsampler.JSPrefs;

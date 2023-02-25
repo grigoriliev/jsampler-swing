@@ -29,7 +29,7 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JSpinner;
 import javax.swing.SpinnerNumberModel;
-import net.sf.juife.swing.OkCancelDialog;
+import com.grigoriliev.jsampler.juife.swing.OkCancelDialog;
 import org.jsampler.view.swing.SHF;
 import org.linuxsampler.lscp.EffectParameter;
 import org.linuxsampler.lscp.FloatParameter;

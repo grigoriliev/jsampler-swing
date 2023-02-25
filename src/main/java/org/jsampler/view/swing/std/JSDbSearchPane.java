@@ -61,8 +61,8 @@ import javax.swing.event.DocumentListener;
 
 import org.jsampler.view.swing.SHF;
 
-import net.sf.juife.event.TaskEvent;
-import net.sf.juife.event.TaskListener;
+import com.grigoriliev.jsampler.juife.event.TaskEvent;
+import com.grigoriliev.jsampler.juife.event.TaskListener;
 
 import org.jsampler.CC;
 import org.jsampler.task.InstrumentsDb;

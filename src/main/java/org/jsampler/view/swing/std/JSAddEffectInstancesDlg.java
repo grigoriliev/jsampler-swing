@@ -33,7 +33,7 @@ import org.jsampler.view.swing.SHF;
 
 import org.linuxsampler.lscp.Effect;
 
-import net.sf.juife.swing.OkCancelDialog;
+import com.grigoriliev.jsampler.juife.swing.OkCancelDialog;
 
 import static org.jsampler.view.swing.std.StdI18n.i18n;
 

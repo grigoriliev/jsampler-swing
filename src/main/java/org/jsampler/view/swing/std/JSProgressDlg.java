@@ -41,7 +41,7 @@ import org.jsampler.CC;
 import org.jsampler.view.JSProgress;
 import org.jsampler.view.swing.SHF;
 
-import net.sf.juife.swing.JuifeUtils;
+import com.grigoriliev.jsampler.juife.swing.JuifeUtils;
 
 import static org.jsampler.view.swing.std.StdI18n.i18n;
 
@@ -113,7 +113,7 @@ public class JSProgressDlg extends JDialog implements JSProgress {
 		}
 		
 		CC.getTaskQueue().removePendingTasks();
-		net.sf.juife.Task t = CC.getTaskQueue().getRunningTask();
+		com.grigoriliev.jsampler.juife.Task t = CC.getTaskQueue().getRunningTask();
 		if(t != null) t.stop();
 		
 		setVisible(false);

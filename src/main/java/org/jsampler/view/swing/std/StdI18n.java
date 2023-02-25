@@ -25,7 +25,7 @@ package org.jsampler.view.swing.std;
  * This class manages the locale-specific data.
  * @author Grigor Iliev
  */
-public class StdI18n extends net.sf.juife.I18n {
+public class StdI18n extends com.grigoriliev.jsampler.juife.I18n {
 	/** Provides the locale-specific data. */
 	public static StdI18n i18n = new StdI18n();
 	

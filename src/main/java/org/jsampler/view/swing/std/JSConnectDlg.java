@@ -32,7 +32,7 @@ import javax.swing.BoxLayout;
 import javax.swing.JButton;
 import javax.swing.JPanel;
 
-import net.sf.juife.swing.EnhancedDialog;
+import com.grigoriliev.jsampler.juife.swing.EnhancedDialog;
 
 import org.jsampler.CC;
 import org.jsampler.JSPrefs;

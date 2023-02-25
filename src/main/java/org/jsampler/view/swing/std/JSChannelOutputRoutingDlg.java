@@ -33,8 +33,8 @@ import javax.swing.table.AbstractTableModel;
 import javax.swing.table.TableColumn;
 import javax.swing.table.JTableHeader;
 
-import net.sf.juife.swing.InformationDialog;
-import net.sf.juife.swing.JuifeUtils;
+import com.grigoriliev.jsampler.juife.swing.InformationDialog;
+import com.grigoriliev.jsampler.juife.swing.JuifeUtils;
 
 import org.jsampler.AudioDeviceModel;
 import org.jsampler.CC;

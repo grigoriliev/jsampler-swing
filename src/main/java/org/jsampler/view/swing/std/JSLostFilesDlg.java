@@ -50,10 +50,10 @@ import javax.swing.event.DocumentListener;
 import javax.swing.event.ListSelectionEvent;
 import javax.swing.event.ListSelectionListener;
 
-import net.sf.juife.Task;
-import net.sf.juife.event.GenericEvent;
-import net.sf.juife.event.GenericListener;
-import net.sf.juife.swing.InformationDialog;
+import com.grigoriliev.jsampler.juife.Task;
+import com.grigoriliev.jsampler.juife.event.GenericEvent;
+import com.grigoriliev.jsampler.juife.event.GenericListener;
+import com.grigoriliev.jsampler.juife.swing.InformationDialog;
 
 import org.jsampler.CC;
 import org.jsampler.task.InstrumentsDb.SetInstrumentFilePath;

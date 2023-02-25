@@ -23,8 +23,8 @@ package org.jsampler.view.swing;
 
 import javax.swing.table.AbstractTableModel;
 
-import net.sf.juife.event.GenericEvent;
-import net.sf.juife.event.GenericListener;
+import com.grigoriliev.jsampler.juife.event.GenericEvent;
+import com.grigoriliev.jsampler.juife.event.GenericListener;
 import org.jsampler.Server;
 import org.jsampler.ServerList;
 

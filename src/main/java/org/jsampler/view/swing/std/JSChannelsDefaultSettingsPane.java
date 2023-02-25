@@ -43,7 +43,7 @@ import javax.swing.JPanel;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
 
-import net.sf.juife.swing.InformationDialog;
+import com.grigoriliev.jsampler.juife.swing.InformationDialog;
 
 import org.linuxsampler.lscp.SamplerEngine;
 

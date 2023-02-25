@@ -45,7 +45,7 @@ import javax.swing.KeyStroke;
 import javax.swing.event.ListSelectionEvent;
 import javax.swing.event.ListSelectionListener;
 
-import net.sf.juife.swing.JuifeUtils;
+import com.grigoriliev.jsampler.juife.swing.JuifeUtils;
 
 import org.jsampler.CC;
 import org.jsampler.DefaultOrchestraModel;

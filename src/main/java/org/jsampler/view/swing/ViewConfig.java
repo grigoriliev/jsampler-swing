@@ -42,12 +42,12 @@ public abstract class ViewConfig extends JSViewConfig<Icon> {
 
 	/**  Constructs a new multicolumn menu with the supplied string as its text. */
 	public javax.swing.JMenu
-	createMultiColumnMenu(String s) { return new net.sf.juife.swing.MultiColumnMenu(s); }
+	createMultiColumnMenu(String s) { return new com.grigoriliev.jsampler.juife.swing.MultiColumnMenu(s); }
 
 	/**  Constructs a new multicolumn popup menu. */
 	public JPopupMenu
 	createMultiColumnPopupMenu()
-	{ return new net.sf.juife.swing.MultiColumnMenu.PopupMenu(); }
+	{ return new com.grigoriliev.jsampler.juife.swing.MultiColumnMenu.PopupMenu(); }
 	
 	private static final Vector<ChangeListener> idtmListeners = new Vector<ChangeListener>();
 	private static InstrumentsDbTreeModel instrumentsDbTreeModel = null;

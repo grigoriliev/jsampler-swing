@@ -46,7 +46,7 @@ import javax.swing.event.TreeSelectionListener;
 import javax.swing.tree.DefaultTreeCellRenderer;
 import javax.swing.tree.TreeSelectionModel;
 
-import net.sf.juife.swing.DefaultNavigationHistoryModel;
+import com.grigoriliev.jsampler.juife.swing.DefaultNavigationHistoryModel;
 
 import org.jsampler.CC;
 
