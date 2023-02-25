@@ -51,7 +51,7 @@
 		<dependency>
 			<groupId>com.grigoriliev.jsampler</groupId>
 			<artifactId>juife-swing</artifactId>
-			<version>0.7-SNAPSHOT</version>
+			<version>0.6</version>
 		</dependency>
 	</dependencies>
 
