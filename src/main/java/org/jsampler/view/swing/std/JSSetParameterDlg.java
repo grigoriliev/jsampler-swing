@@ -31,8 +31,8 @@ import javax.swing.JSpinner;
 import javax.swing.SpinnerNumberModel;
 import com.grigoriliev.jsampler.juife.swing.OkCancelDialog;
 import org.jsampler.view.swing.SHF;
-import org.linuxsampler.lscp.EffectParameter;
-import org.linuxsampler.lscp.FloatParameter;
+import com.grigoriliev.jsampler.jlscp.EffectParameter;
+import com.grigoriliev.jsampler.jlscp.FloatParameter;
 
 /**
  *

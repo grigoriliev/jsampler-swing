@@ -67,9 +67,9 @@ import com.grigoriliev.jsampler.juife.event.TaskListener;
 import org.jsampler.CC;
 import org.jsampler.task.InstrumentsDb;
 
-import org.linuxsampler.lscp.DbDirectoryInfo;
-import org.linuxsampler.lscp.DbInstrumentInfo;
-import org.linuxsampler.lscp.DbSearchQuery;
+import com.grigoriliev.jsampler.jlscp.DbDirectoryInfo;
+import com.grigoriliev.jsampler.jlscp.DbInstrumentInfo;
+import com.grigoriliev.jsampler.jlscp.DbSearchQuery;
 
 import static org.jsampler.view.swing.std.StdI18n.i18n;
 

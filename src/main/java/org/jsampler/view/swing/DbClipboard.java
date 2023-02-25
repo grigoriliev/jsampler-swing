@@ -28,8 +28,8 @@ import javax.swing.event.ChangeListener;
 
 import org.jsampler.CC;
 
-import org.linuxsampler.lscp.DbDirectoryInfo;
-import org.linuxsampler.lscp.DbInstrumentInfo;
+import com.grigoriliev.jsampler.jlscp.DbDirectoryInfo;
+import com.grigoriliev.jsampler.jlscp.DbInstrumentInfo;
 
 
 /**

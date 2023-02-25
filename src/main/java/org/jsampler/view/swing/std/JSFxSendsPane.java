@@ -71,7 +71,7 @@ import org.jsampler.task.Channel;
 
 import org.jsampler.view.swing.FxSendTable;
 
-import org.linuxsampler.lscp.FxSend;
+import com.grigoriliev.jsampler.jlscp.FxSend;
 
 import static org.jsampler.view.swing.std.StdI18n.i18n;
 

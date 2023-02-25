@@ -45,7 +45,7 @@ import javax.swing.event.ChangeListener;
 
 import com.grigoriliev.jsampler.juife.swing.InformationDialog;
 
-import org.linuxsampler.lscp.SamplerEngine;
+import com.grigoriliev.jsampler.jlscp.SamplerEngine;
 
 import org.jsampler.CC;
 import org.jsampler.HF;

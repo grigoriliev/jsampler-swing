@@ -32,7 +32,7 @@ import javax.swing.JPanel;
 import javax.swing.JSeparator;
 import javax.swing.JTextArea;
 
-import org.linuxsampler.lscp.DbInstrumentInfo;
+import com.grigoriliev.jsampler.jlscp.DbInstrumentInfo;
 
 import static org.jsampler.view.swing.std.StdI18n.i18n;
 

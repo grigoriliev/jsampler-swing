@@ -24,7 +24,7 @@ import javax.swing.JTable;
 import javax.swing.table.TableColumnModel;
 import org.jsampler.CC;
 import org.jsampler.JSPrefs;
-import org.linuxsampler.lscp.Effect;
+import com.grigoriliev.jsampler.jlscp.Effect;
 
 /**
  *

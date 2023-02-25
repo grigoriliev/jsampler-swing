@@ -26,11 +26,11 @@ import java.util.Vector;
 
 import javax.swing.tree.TreeNode;
 
-import org.linuxsampler.lscp.DbDirectoryInfo;
-import org.linuxsampler.lscp.DbInstrumentInfo;
+import com.grigoriliev.jsampler.jlscp.DbDirectoryInfo;
+import com.grigoriliev.jsampler.jlscp.DbInstrumentInfo;
 
-import org.linuxsampler.lscp.event.InstrumentsDbEvent;
-import org.linuxsampler.lscp.event.InstrumentsDbListener;
+import com.grigoriliev.jsampler.jlscp.event.InstrumentsDbEvent;
+import com.grigoriliev.jsampler.jlscp.event.InstrumentsDbListener;
 
 /**
  *

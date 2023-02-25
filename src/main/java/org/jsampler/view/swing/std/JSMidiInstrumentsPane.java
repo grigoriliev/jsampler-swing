@@ -37,7 +37,7 @@ import org.jsampler.CC;
 import org.jsampler.MidiInstrument;
 import org.jsampler.MidiInstrumentMap;
 
-import org.linuxsampler.lscp.MidiInstrumentInfo;
+import com.grigoriliev.jsampler.jlscp.MidiInstrumentInfo;
 
 import static org.jsampler.view.swing.std.StdI18n.i18n;
 

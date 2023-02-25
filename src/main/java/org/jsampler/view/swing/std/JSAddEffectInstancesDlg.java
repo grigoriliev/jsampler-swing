@@ -31,7 +31,7 @@ import javax.swing.event.ListSelectionListener;
 import org.jsampler.view.swing.EffectTable;
 import org.jsampler.view.swing.SHF;
 
-import org.linuxsampler.lscp.Effect;
+import com.grigoriliev.jsampler.jlscp.Effect;
 
 import com.grigoriliev.jsampler.juife.swing.OkCancelDialog;
 

@@ -51,8 +51,8 @@ import org.jsampler.view.swing.DbDirectoryTreeNode;
 import org.jsampler.view.swing.InstrumentsDbTreeModel;
 import org.jsampler.view.swing.SHF;
 
-import org.linuxsampler.lscp.DbInstrumentInfo;
-import org.linuxsampler.lscp.Parser;
+import com.grigoriliev.jsampler.jlscp.DbInstrumentInfo;
+import com.grigoriliev.jsampler.jlscp.Parser;
 
 import static org.jsampler.view.swing.std.StdI18n.i18n;
 

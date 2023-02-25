@@ -56,9 +56,9 @@ import org.jsampler.CC;
 import org.jsampler.event.ParameterEvent;
 import org.jsampler.event.ParameterListener;
 
-import org.linuxsampler.lscp.Parameter;
-import org.linuxsampler.lscp.ParameterType;
-import org.linuxsampler.lscp.StringListParameter;
+import com.grigoriliev.jsampler.jlscp.Parameter;
+import com.grigoriliev.jsampler.jlscp.ParameterType;
+import com.grigoriliev.jsampler.jlscp.StringListParameter;
 
 
 /**
@@ -128,7 +128,7 @@ public class ParameterTableModel extends AbstractTableModel {
 	/**
 	 * Sets whether fixed parameters are editable.
 	 * @param b Specify <code>true</code> to enable the editing of fixed parameters.
-	 * @see org.linuxsampler.lscp.Parameter#isFixed
+	 * @see com.grigoriliev.jsampler.jlscp.Parameter#isFixed
 	 */
 	public void
 	setEditFixedParameters(boolean b) { editFixedParameters = b; }
@@ -137,7 +137,7 @@ public class ParameterTableModel extends AbstractTableModel {
 	 * Determines whether fixed parameters are editable.
 	 * @return <code>true</code> if the fixed parameters are
 	 * editable, <code>false</code> otherwise.
-	 * @see org.linuxsampler.lscp.Parameter#isFixed
+	 * @see com.grigoriliev.jsampler.jlscp.Parameter#isFixed
 	 */
 	public boolean
 	canEditFixedParameters() { return editFixedParameters; }

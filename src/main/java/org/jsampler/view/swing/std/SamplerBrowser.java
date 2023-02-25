@@ -34,7 +34,7 @@ import org.jsampler.CC;
 import org.jsampler.EffectInstance;
 import org.jsampler.view.swing.SamplerTreeModel.*;
 
-import org.linuxsampler.lscp.EffectParameter;
+import com.grigoriliev.jsampler.jlscp.EffectParameter;
 
 import static org.jsampler.view.swing.std.StdA4n.a4n;
 import static org.jsampler.view.swing.std.StdI18n.i18n;

@@ -46,10 +46,10 @@ import org.jsampler.CC;
 import org.jsampler.task.InstrumentsDb.GetScanJobInfo;
 import org.jsampler.view.swing.SHF;
 
-import org.linuxsampler.lscp.ScanJobInfo;
+import com.grigoriliev.jsampler.jlscp.ScanJobInfo;
 
-import org.linuxsampler.lscp.event.InstrumentsDbAdapter;
-import org.linuxsampler.lscp.event.InstrumentsDbEvent;
+import com.grigoriliev.jsampler.jlscp.event.InstrumentsDbAdapter;
+import com.grigoriliev.jsampler.jlscp.event.InstrumentsDbEvent;
 
 import static org.jsampler.view.swing.std.StdI18n.i18n;
 

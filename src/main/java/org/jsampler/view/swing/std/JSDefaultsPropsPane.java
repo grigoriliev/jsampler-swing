@@ -46,8 +46,8 @@ import javax.swing.JPanel;
 import org.jsampler.CC;
 import org.jsampler.JSPrefs;
 
-import org.linuxsampler.lscp.AudioOutputDriver;
-import org.linuxsampler.lscp.MidiInputDriver;
+import com.grigoriliev.jsampler.jlscp.AudioOutputDriver;
+import com.grigoriliev.jsampler.jlscp.MidiInputDriver;
 
 import static org.jsampler.view.swing.std.StdI18n.i18n;
 import static org.jsampler.JSPrefs.*;

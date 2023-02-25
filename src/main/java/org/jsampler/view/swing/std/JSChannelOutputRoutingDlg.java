@@ -40,7 +40,7 @@ import org.jsampler.AudioDeviceModel;
 import org.jsampler.CC;
 import org.jsampler.task.Channel.SetAudioOutputChannel;
 
-import org.linuxsampler.lscp.SamplerChannel;
+import com.grigoriliev.jsampler.jlscp.SamplerChannel;
 
 import static org.jsampler.view.swing.std.StdI18n.i18n;
 

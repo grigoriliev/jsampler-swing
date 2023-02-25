@@ -82,15 +82,15 @@ import org.jsampler.view.swing.DbDirectoryTreeNode;
 import org.jsampler.view.swing.InstrumentsDbTableModel;
 import org.jsampler.view.swing.SHF;
 
-import org.linuxsampler.lscp.DbDirectoryInfo;
-import org.linuxsampler.lscp.DbInstrumentInfo;
-import org.linuxsampler.lscp.MidiInstrumentEntry;
-import org.linuxsampler.lscp.MidiInstrumentInfo;
+import com.grigoriliev.jsampler.jlscp.DbDirectoryInfo;
+import com.grigoriliev.jsampler.jlscp.DbInstrumentInfo;
+import com.grigoriliev.jsampler.jlscp.MidiInstrumentEntry;
+import com.grigoriliev.jsampler.jlscp.MidiInstrumentInfo;
 
 import static org.jsampler.view.swing.InstrumentsDbTableModel.ColumnType;
 import static org.jsampler.view.swing.std.StdI18n.i18n;
 
-import static org.linuxsampler.lscp.Parser.*;
+import static com.grigoriliev.jsampler.jlscp.Parser.*;
 
 /**
  *

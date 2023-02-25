@@ -53,9 +53,9 @@ import org.jsampler.MidiInstrumentMap;
 
 import org.jsampler.task.Midi;
 
-import org.linuxsampler.lscp.Instrument;
-import org.linuxsampler.lscp.MidiInstrumentEntry;
-import org.linuxsampler.lscp.MidiInstrumentInfo;
+import com.grigoriliev.jsampler.jlscp.Instrument;
+import com.grigoriliev.jsampler.jlscp.MidiInstrumentEntry;
+import com.grigoriliev.jsampler.jlscp.MidiInstrumentInfo;
 
 import static org.jsampler.view.swing.std.StdI18n.i18n;
 

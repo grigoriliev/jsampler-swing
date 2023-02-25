@@ -29,8 +29,8 @@ import javax.swing.table.TableCellEditor;
 import javax.swing.table.TableCellRenderer;
 import javax.swing.table.TableModel;
 
-import org.linuxsampler.lscp.Parameter;
-import org.linuxsampler.lscp.ParameterType;
+import com.grigoriliev.jsampler.jlscp.Parameter;
+import com.grigoriliev.jsampler.jlscp.ParameterType;
 
 
 /**

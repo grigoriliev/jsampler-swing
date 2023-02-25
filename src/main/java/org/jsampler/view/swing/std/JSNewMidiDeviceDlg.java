@@ -57,8 +57,8 @@ import org.jsampler.event.ParameterListener;
 import org.jsampler.task.Midi;
 import org.jsampler.view.swing.ParameterTable;
 
-import org.linuxsampler.lscp.MidiInputDriver;
-import org.linuxsampler.lscp.Parameter;
+import com.grigoriliev.jsampler.jlscp.MidiInputDriver;
+import com.grigoriliev.jsampler.jlscp.Parameter;
 
 import static org.jsampler.view.swing.std.StdI18n.i18n;
 import static org.jsampler.JSPrefs.*;

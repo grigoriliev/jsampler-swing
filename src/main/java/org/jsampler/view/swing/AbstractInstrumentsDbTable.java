@@ -44,11 +44,11 @@ import org.jsampler.CC;
 import org.jsampler.JSPrefs;
 import org.jsampler.view.InstrumentsDbTableView;
 
-import org.linuxsampler.lscp.DbDirectoryInfo;
-import org.linuxsampler.lscp.DbInstrumentInfo;
+import com.grigoriliev.jsampler.jlscp.DbDirectoryInfo;
+import com.grigoriliev.jsampler.jlscp.DbInstrumentInfo;
 
-import org.linuxsampler.lscp.event.InstrumentsDbAdapter;
-import org.linuxsampler.lscp.event.InstrumentsDbEvent;
+import com.grigoriliev.jsampler.jlscp.event.InstrumentsDbAdapter;
+import com.grigoriliev.jsampler.jlscp.event.InstrumentsDbEvent;
 
 import static javax.swing.event.RowSorterEvent.Type.SORT_ORDER_CHANGED;
 

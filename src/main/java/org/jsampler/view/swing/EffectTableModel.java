@@ -23,7 +23,7 @@ package org.jsampler.view.swing;
 import javax.swing.table.AbstractTableModel;
 import org.jsampler.CC;
 import org.jsampler.EffectList;
-import org.linuxsampler.lscp.Effect;
+import com.grigoriliev.jsampler.jlscp.Effect;
 
 import static org.jsampler.JSI18n.i18n;
 

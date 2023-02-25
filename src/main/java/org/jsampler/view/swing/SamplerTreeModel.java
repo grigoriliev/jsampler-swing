@@ -47,9 +47,9 @@ import org.jsampler.event.ListEvent;
 import org.jsampler.event.ListListener;
 import org.jsampler.view.JSChannelsPane;
 
-import org.linuxsampler.lscp.Effect;
-import org.linuxsampler.lscp.EffectParameter;
-import org.linuxsampler.lscp.FxSend;
+import com.grigoriliev.jsampler.jlscp.Effect;
+import com.grigoriliev.jsampler.jlscp.EffectParameter;
+import com.grigoriliev.jsampler.jlscp.FxSend;
 
 import static org.jsampler.JSI18n.i18n;
 

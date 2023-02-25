@@ -57,7 +57,7 @@ import org.jsampler.JSPrefs;
 import org.jsampler.task.InstrumentsDb;
 
 import static org.jsampler.view.swing.std.StdI18n.i18n;
-import static org.linuxsampler.lscp.Parser.*;
+import static com.grigoriliev.jsampler.jlscp.Parser.*;
 
 /**
  *

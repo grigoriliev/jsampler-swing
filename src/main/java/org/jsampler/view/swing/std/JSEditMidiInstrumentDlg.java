@@ -49,9 +49,9 @@ import org.jsampler.JSPrefs;
 import org.jsampler.task.Global;
 import org.jsampler.view.swing.SHF;
 
-import org.linuxsampler.lscp.Instrument;
-import org.linuxsampler.lscp.MidiInstrumentInfo;
-import org.linuxsampler.lscp.SamplerEngine;
+import com.grigoriliev.jsampler.jlscp.Instrument;
+import com.grigoriliev.jsampler.jlscp.MidiInstrumentInfo;
+import com.grigoriliev.jsampler.jlscp.SamplerEngine;
 
 import static org.jsampler.view.swing.std.StdI18n.i18n;
 

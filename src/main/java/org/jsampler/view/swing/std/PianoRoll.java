@@ -44,8 +44,8 @@ import javax.swing.Timer;
 
 import org.jsampler.CC;
 
-import org.linuxsampler.lscp.event.MidiDataEvent;
-import org.linuxsampler.lscp.event.MidiDataListener;
+import com.grigoriliev.jsampler.jlscp.event.MidiDataEvent;
+import com.grigoriliev.jsampler.jlscp.event.MidiDataListener;
 
 import static org.jsampler.view.swing.std.StdI18n.i18n;
 

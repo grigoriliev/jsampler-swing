@@ -63,10 +63,10 @@ import org.jsampler.task.Global;
 import org.jsampler.task.InstrumentsDb;
 import org.jsampler.view.swing.SHF;
 
-import org.linuxsampler.lscp.Instrument;
+import com.grigoriliev.jsampler.jlscp.Instrument;
 
 import static org.jsampler.view.swing.std.StdI18n.i18n;
-import static org.linuxsampler.lscp.Parser.*;
+import static com.grigoriliev.jsampler.jlscp.Parser.*;
 
 /**
  *

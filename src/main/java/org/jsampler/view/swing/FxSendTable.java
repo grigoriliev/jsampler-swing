@@ -36,7 +36,7 @@ import org.jsampler.SamplerChannelModel;
 import org.jsampler.event.EffectSendsEvent;
 import org.jsampler.event.EffectSendsListener;
 
-import org.linuxsampler.lscp.FxSend;
+import com.grigoriliev.jsampler.jlscp.FxSend;
 
 
 /**

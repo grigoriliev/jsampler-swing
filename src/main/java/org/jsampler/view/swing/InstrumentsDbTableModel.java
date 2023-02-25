@@ -34,14 +34,14 @@ import com.grigoriliev.jsampler.juife.event.TaskListener;
 import org.jsampler.CC;
 import org.jsampler.task.InstrumentsDb;
 
-import org.linuxsampler.lscp.DbDirectoryInfo;
-import org.linuxsampler.lscp.DbInstrumentInfo;
+import com.grigoriliev.jsampler.jlscp.DbDirectoryInfo;
+import com.grigoriliev.jsampler.jlscp.DbInstrumentInfo;
 
-import org.linuxsampler.lscp.event.InstrumentsDbEvent;
-import org.linuxsampler.lscp.event.InstrumentsDbListener;
+import com.grigoriliev.jsampler.jlscp.event.InstrumentsDbEvent;
+import com.grigoriliev.jsampler.jlscp.event.InstrumentsDbListener;
 
 import static org.jsampler.JSI18n.i18n;
-import static org.linuxsampler.lscp.Parser.*;
+import static com.grigoriliev.jsampler.jlscp.Parser.*;
 
 /**
  *

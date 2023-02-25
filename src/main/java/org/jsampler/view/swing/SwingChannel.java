@@ -28,7 +28,7 @@ import java.beans.PropertyChangeListener;
 import javax.swing.JPanel;
 import org.jsampler.SamplerChannelModel;
 import org.jsampler.view.JSChannel;
-import org.linuxsampler.lscp.SamplerChannel;
+import com.grigoriliev.jsampler.jlscp.SamplerChannel;
 
 /**
  * This class defines the skeleton of a Swing sampler channel.
